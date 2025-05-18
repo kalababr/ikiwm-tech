@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKIM Co Tech</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="logo">
+        <div class="logo-icon">
+            <img src="pics/logo.jpg" alt="">
+        </div>
+        <span class="logo-text">IKIM Co Tech</span>
+      </div>
+
+      <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+
+      <div class="desktop-cta">
+        <a href="#contact"><button class="btn primary-btn">Contact us</button></a>
+      </div>
+
+      <button class="mobile-menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#team">Team</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact"><button class="btn primary-btn">Contact us</button></a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Landing Section -->
+  <section id="home" class="landing-section">
+    <!-- Dynamic background elements -->
+    <div class="background-particles"></div>
+    
+    <svg class="wave wave-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="0.1" d="M0,288L48,272C96,256,192,224,288,213.3C384,203,480,213,576,229.3C672,245,768,267,864,261.3C960,256,1056,224,1152,218.7C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+    
+    <svg class="wave wave-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,176C384,192,480,192,576,181.3C672,171,768,149,864,149.3C960,149,1056,171,1152,176C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+    </svg>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="badge animate-pulse">
+          <span>Innovative Tech Solutions</span>
+        </div>
+        
+        <h1>
+          <span class="underline-animation">Transforming</span> 
+          <span class="gradient-text">Ideas Into Reality</span>
+        </h1>
+        
+        <p>
+          IKIM Co Tech delivers cutting-edge solutions through innovative technologies and creative expertise.
+        </p>
+        
+        <div class="cta-buttons">
+          <button class="btn primary-btn">
+            Our work
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Custom websites with modern technologies</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laptop"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg>
+          </div>
+          <h3>App Development</h3>
+          <p>Cross-platform mobile applications</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-image"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <h3>3D Design</h3>
+          <p>Stunning 3D models and visualizations</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Professional video production</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>We offer comprehensive digital solutions to help your business thrive in the modern world.</p>
+      </div>
+
+      <div class="services-grid-full">
+        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Build user-friendly websites that work seamlessly on all devices. Create intuitive designs that enhance user experience and engagement.</p>
+        </div>
+        
+        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>Custom iOS and Android applications tailored to your business needs, along with efficient cross-platform solutions.</p>
+        </div>
+        
+        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-image"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+          </div>
+          <h3>3D Design</h3>
+          <p>Offers innovative solutions for creating detailed three-dimensional models and visualizations. Whether for product design, architectural visualization, or animation.</p>
+        </div>
+        
+        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Transforms raw footage into polished, engaging content. We specialize in creating captivating videos for promotional materials, social media, events, and more.</p>
+        </div>
+        
+        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-line-chart"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3>Marketing Consultancy</h3>
+          <p>Expert analysis and strategic insights to help businesses understand market trends, identify opportunities, and make data-driven decisions for growth and success.</p>
+        </div>
+        <!--        <div class="service-box">
+          <div class="service-icon-large">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Team Training</h3>
+          <p>Training and workshops to enhance your team's technical skills.</p>
+        </div>
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Projects</h2>
+        <p>Explore our latest work across different industries and technologies.</p>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web Development</button>
+        <button class="filter-btn" data-filter="app">App Development</button>
+        <button class="filter-btn" data-filter="3d">3D Design</button>
+        <button class="filter-btn" data-filter="video">Video Editing</button>
+      </div>
+
+      <div class="projects-carousel">
+        <div class="carousel-container">
+          <div class="carousel-track">
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="pics/projectpic/Nawla.jpg" alt="Nawla Trading PLC">
+                <div class="project-overlay">
+                  <h3>Nawla Trading PLC</h3>
+                  <p>This Nawla Trading website showcases products and services with a clean, responsive design.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a> 
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="Web">
+              <div class="project-image">
+                <img src="pics/projectpic/gojo.jpg" alt="Gojo Guest House">
+                <div class="project-overlay">
+                  <h3>Gojo Guest House</h3>
+                  <p>This guesthouse website highlights services, room options, and amenities.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="pics/projectpic/Brand.png" alt="Brand Clothing">
+                <div class="project-overlay">
+                  <h3>Brand Clothing</h3>
+                  <p>Brand Clothing brings you timeless fashion with a modern touch.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="pics/projectpic/heiver.jpg" alt="heiver">
+                <div class="project-overlay">
+                  <h3>Heiver Tech</h3>
+                  <p>Provides various technology services and is globally recognized for its outstanding innovations, cutting-edge solutions, and commitment to excellence in the tech industry.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="pics/projectpic/negarit.jpg" alt="negarit">
+                <div class="project-overlay">
+                  <h3>ነጋሪት Marketing Agency</h3>
+                  <p>Offers a wide range of digital services, striving to modernize the world by providing innovative and effective marketing solutions./p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>  
+                </div>
+              </div>
+            </div>
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img src="pics/projectpic/agape.jpg" alt="Agape">
+                <div class="project-overlay">
+                  <h3>Agape Leather Design</h3>
+                  <p>Specializes in crafting a variety of high-quality leather products, delighting clients with beautiful and expertly handcrafted designs.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="app">
+              <div class="project-image">
+                <img src="pics/projectpic/sho.jpg" alt="ShoeIT">
+                <div class="project-overlay">
+                  <h3>ShoeIT</h3>
+                  <p>This mobile app is dedicated to shoe sales, offering a clean, user-friendly design. It features easy navigation, comprehensive product details, and a visually appealing layout that enhances the shopping experience.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/gojoHouse.jpg" alt="gojo">
+                <div class="project-overlay">
+                  <h3>Gojo Guest House</h3>
+                  <p>A logo for a guesthouse that gives different kinds of services, showcasing versatility and professionalism.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/ybShopping.jpg" alt="Habesha">
+                <div class="project-overlay">
+                  <h3>Habesha Crowd</h3>
+                  <p>A logo for a company that provides various services, showcasing versatility and professionalism.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/Eromica.jpg" alt="Eromica">
+                <div class="project-overlay">
+                  <h3>Eromica</h3>
+                  <p>A logo for a woman that is represented by E= Ethiopia, Romi= roman (name of the woman), ca= comes from the last word Africa</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/negaritlogo.jpg" alt="negarit">
+                <div class="project-overlay">
+                  <h3>ነጋሪት Marketing Agency</h3>
+                  <p>This one is the logo part for the marketing agency that provides innovative and effective marketing solutions</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/hanybeauty.jpg" alt="Hany Beauty">
+                <div class="project-overlay">
+                  <h3>Hany Beauty</h3>
+                  <p>A logo for a beauty salon that provides various services, showcasing versatility and professionalism.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="3d">
+              <div class="project-image">
+                <img src="pics/projectpic/yegna.jpg" alt="yegna">
+                <div class="project-overlay">
+                  <h3>Yegna Dirsha</h3>
+                  <p>A logo for a company that is worked for their youtube and social media channels.</p>
+                  <a href="#"><button class="btn primary-btn">view</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="carousel-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <button class="carousel-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team-section">
+    <div class="container">
+      <div class="team-header">
+        <div class="team-title">
+          <div class="title-decoration"></div>
+          <h2>Our <span class="highlight">Team</span></h2>
+          <p>Meet our talented professionals dedicated to bringing your ideas to life. 
+            Each member brings unique expertise and creative vision to every project.</p>
+          
+          <div class="team-count">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg>
+            <span>6 Team Members</span>
+          </div>
+        </div>
+        
+        <div class="team-brand">
+          <h3>IKIM Co</h3>
+          <p>Est. 2023</p>
+        </div>
+      </div>
+
+      <!-- Mobile Team Carousel -->
+      <div class="team-carousel-mobile">
+        <div class="team-carousel-container">
+          <div class="team-carousel-track">
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/miki.jpg" alt="miki">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/miki.jpg" alt="miki">
+                <h3>Mikiyas Taye</h3>
+                <p class="member-role">CEO & Founder</p>
+                <p class="member-bio">Mikiyas has many years of experience in technology and business leadership.</p>
+                <div class="member-skills">
+                  <span>Strategic Planning</span>
+                  <span>Web Development</span>
+                  <span>Team Leadership</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/betse.jpg" alt="Betselot Bezuayehu">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/betse.jpg" alt="Betselot Bezuayehu">
+                <h3>Betselot Bezuayehu</h3>
+                <p class="member-role">Software Developer</p>
+                <p class="member-bio">Betselot brings creative vision and design excellence to every project.</p>
+                <div class="member-skills">
+                  <span>Software Developer</span>
+                  <span>Creative Strategy</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/bisrat.jpg" alt="Bisrat Kifle">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/bisrat.jpg" alt="Jecoliah">
+                <h3>Bisrat Kifle</h3>
+                <p class="member-role">Graphics Designer and Video Editor</p>
+                <p class="member-bio">Bisrat creates stunning 3D visualizations and animations for diverse projects.</p>
+                <div class="member-skills">
+                    <span>Graphics design</span>
+                    <span>Animation</span>
+                    <span>Video editor</span>
+                </div>
+              </div>
+            </div>
+
+             <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/aman2.jpg" alt="Amen Dereje">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/aman2.jpg" alt="Amen Dereje">
+                <h3>Amen Dereje</h3>
+                <p class="member-role">Website Developer</p>
+                <p class="member-bio">Betselot brings creative vision and design excellence to every project.</p>
+                <div class="member-skills">
+                  <span>Web Developer</span>
+                  <span>Creative Strategy</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/Jecoliah.jpg" alt="Jecoliah">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/Jecoliah.jpg" alt="Jecoliah">
+                <h3>Jecoliah Menberu</h3>
+                <p class="member-role">Sales Manager</p>
+                <p class="member-bio">Jecoliah develops and implements effective marketing strategies for our clients.</p>
+                <div class="member-skills">
+                    <span>Digital Marketing</span>
+                    <span>Analytics</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/tesfahun.jpg" alt="Tesfahun Gibitan">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/tesfahun.jpg" alt="Tesfahun Gibitan">
+                <h3>Tesfahun Gibitan</h3>
+                <p class="member-role">3D and VFX Artist</p>
+                <p class="member-bio">Tesfahun creates stunning 3D visualizations and animations for diverse projects.</p>
+                <div class="member-skills">
+                    <span>3D Modeling</span>
+                    <span>Animation</span>
+                    <span>Rendering</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="team-member-card">
+              <div class="member-image-container">
+                <img src="pics/team-pic/userpic.jpg" alt="Mikyas Seffi">
+              </div>
+              <div class="member-info">
+                <img class="member-avatar" src="pics/team-pic/userpic.jpg" alt="Mikyas Seffi">
+                <h3>Mikyas Seffi</h3>
+                <p class="member-role">Mikyas Seffi</p>
+                <p class="member-bio">Mikyas Seffi develops and implements effective marketing strategies for our clients.</p>
+                <div class="member-skills">
+                    <span>Digital Marketing</span>
+                    <span>Analytics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="team-carousel-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <button class="team-carousel-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Desktop Team Grid -->
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+              <img src="pics/team-pic/miki.jpg" alt="Mikiyas Taye">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                  <img class="member-avatar" src="pics/team-pic/miki.jpg" alt="Mikiyas Taye">
+                </div>
+                <h3>Mikiyas Taye</h3>
+                <p class="member-role">CEO & Founder</p>
+                <div class="member-details">
+                  <p class="member-bio">Mikiyas has many years of experience in technology and business leadership.</p>
+                  <div class="member-skills">
+                    <span>Strategic Planning</span>
+                    <span>Web Development</span>
+                    <span>Team Leadership</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+              <img src="pics/team-pic/betse.jpg" alt="Betselot Bezuayehu">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                  <img class="member-avatar" src="pics/team-pic/betse.jpg" alt="Betselot Bezuayehu">
+                </div>
+                <h3>Betselot Bezuayehu</h3>
+                <p class="member-role">Software Developer</p>
+                <div class="member-details">
+                  <p class="member-bio">Betselot brings creative vision and design excellence to every project.</p>
+                  <div class="member-skills">
+                  <span>Software Developer</span>
+                  <span>Creative Strategy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+              <img src="pics/team-pic/bisrat.jpg" alt="bisrat">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                  <img class="member-avatar" src="pics/team-pic/bisrat.jpg" alt="bisrat">
+                </div>
+                <h3>Bisrat Kifle</h3>
+                <p class="member-role">Graphics Designer and Video Editor</p>
+                <div class="member-details">
+                  <p class="member-bio">Bisrat creates stunning 3D visualizations and animations videos for diverse projects.</p>
+                  <div class="member-skills">
+                    <span>Graphics design</span>
+                    <span>Animation</span>
+                    <span>Video editor</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+              <img src="pics/team-pic/aman2.jpg" alt="Amen">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                  <img class="member-avatar" src="pics/team-pic/aman2.jpg" alt="Amen">
+                </div>
+                <h3>Amen Dereje</h3>
+                <p class="member-role">Website Developer</p>
+                <div class="member-details">
+                  <p class="member-bio">Amen brings creative vision and design excellence to every project.</p>
+                  <div class="member-skills">
+                  <span>Web Developer</span>
+                  <span>Creative Strategy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+                <img src="pics/team-pic/Jecoliah.jpg" alt="Jecoliah">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                <img class="member-avatar" src="pics/team-pic/Jecoliah.jpg" alt="Jecoliah">
+                </div>
+                <h3>Jecoliah Menberu</h3>
+                <p class="member-role">Sales Manager</p>
+                <div class="member-details">
+                <p class="member-bio">Jecoliah develops and implements effective marketing strategies for our clients.</p>
+                <div class="member-skills">
+                    <span>Digital Marketing</span>
+                    <span>Analytics</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+        <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+                <img src="pics/team-pic/tesfahun.jpg" alt="Tesfahun Gibitan">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                <img class="member-avatar" src="pics/team-pic/tesfahun.jpg" alt="Tesfahun Gibitan">
+                </div>
+                <h3>Tesfahun Gibitan</h3>
+                <p class="member-role">3D and VFX Artist</p>
+                <div class="member-details">
+                <p class="member-bio">Tesfahun creates stunning 3D visualizations and animations for diverse projects.</p>
+                <div class="member-skills">
+                    <span>3D Modeling</span>
+                    <span>Animation</span>
+                    <span>Rendering</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+
+         <div class="team-member">
+          <div class="member-card">
+            <div class="member-portrait">
+                <img src="pics/team-pic/userpic.jpg" alt="Mikyas Seffi">
+              <div class="member-content">
+                <div class="member-avatar-container">
+                <img class="member-avatar" src="pics/team-pic/userpic.jpg" alt="Mikyas Seffi">
+                </div>
+                <h3>Mikyas Seffi</h3>
+                <p class="member-role">Marketing Consultant</p>
+                <div class="member-details">
+                <p class="member-bio">Mikyas Seffi develops and implements effective marketing strategies for our clients.</p>
+                <div class="member-skills">
+                    <span>Digital Marketing</span>
+                    <span>Analytics</span>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="member-reflection"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Clients Say</h2>
+        <p>Hear from our satisfied clients about their experience working with IKIM Co Tech.</p>
+      </div>
+
+      <div class="testimonials-carousel">
+        <div class="testimonials-track">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"IKIM Co Tech delivered an exceptional web application that streamlined our internal processes. Their attention to detail and technical expertise are impressive."</blockquote>
+            <div class="testimonial-author">
+              <img src="pics/team-pic/userpic.jpg" >
+              <div>
+                <p class="author-name">Belay sisay</p>
+                <p class="author-role">CTO, Global Tech Solutions</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"The team at IKIM Co Tech helped us develop a stunning marketing campaign. The 3D designs and video content exceeded our expectations and generated significant ROI."</blockquote>
+            <div class="testimonial-author">
+              <img src="pics/team-pic/userpic.jpg" >
+              <div>
+                <p class="author-name">Hiwot kebede</p>
+                <p class="author-role">Marketing Director, Creative Industries</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"Working with IKIM Co Tech has been transformative for our business. Their mobile app development and marketing consultancy services have helped us reach new heights."</blockquote>
+            <div class="testimonial-author">
+              <img src="pics/team-pic/userpic.jpg" >
+              <div>
+                <p class="author-name">Michael belete</p>
+                <p class="author-role">CEO, Retail Innovations</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"The 3D visualizations created by IKIM Co Tech for our medical devices were incredibly detailed and helped us communicate complex information to our stakeholders."</blockquote>
+            <div class="testimonial-author">
+              <img src="pics/team-pic/userpic.jpg" >
+              <div>
+                <p class="author-name">jahlud</p>
+                <p class="author-role">Product Manager, Healthcare Solutions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="testimonial-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left"><path d="m15 18-6-6 6-6"/></svg>
+          </button>
+          <div class="testimonial-pagination">
+            <span class="current-slide">1</span> / <span class="total-slides">4</span>
+          </div>
+          <button class="testimonial-next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <p>Have a project in mind? Contact us today for a consultation and quote.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-map">
+          <div class="map-container">
+            <iframe 
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7882.275830407921!2d38.70805248756994!3d8.959437162371772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b813778b05b53%3A0x9aa2de2eab57166f!2sJemo%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1747572006066!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">              width="100%" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <p class="info-label">Phone</p>
+                <p class="info-value">+251951207168</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <p class="info-label">Email</p>
+                <p class="info-value">ikimtechco@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="info-label">Address</p>
+                <p class="info-value">Jemo, Addis Ababa, Ethiopia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h3>Send us a message</h3>
+          <form id="contact-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary-btn full-width">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <div class="footer-logo">
+            <div class="logo-icon">
+                <img src="pics/logo.jpg" alt="">
+            </div>
+            <span class="logo-text">IKIM Co Tech</span>
+          </div>
+          <p>Delivering innovative digital solutions for businesses of all sizes. We combine creativity with technical expertise.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">App Development</a></li>
+            <li><a href="#">3D Design</a></li>
+            <li><a href="#">Video Editing</a></li>
+            <li><a href="#">Marketing Consultancy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter to receive updates and industry insights.</p>
+          <form id="newsletter-form" class="newsletter-form">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn primary-btn icon-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2025 IKIM Co Tech. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast">
+    <div class="toast-content">
+      <div class="toast-title">Welcome to IKIM Co Tech</div>
+      <div class="toast-message">Explore our services and solutions</div>
+    </div>
+    <button class="toast-close">×</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
